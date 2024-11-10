@@ -43,10 +43,13 @@ button:focus{
     border: 0px;
 }
 
-.marcado{
+.prev{
     background-color: orange;
 }
 
+.next{
+    background-color: green;
+}
 
 h3{
     color: black;

@@ -14,30 +14,32 @@ export default function Malla(){
         });
     }, []);
 
+    const checkPrevNext = (subjectname) => {
+        const selectedSubject = subjects.find(subject => subject.name === subjectname) 
+        const prevs = subjects.filter(subject => selectedSubject.prev.includes(subject.name));
+        const nexts = subjects.filter(subject => selectedSubject.next.includes(subject.name));
 
-    const MarcarAnterior = (subjectsname) => {
-        // Restablecer todos los subjects a desmarcados
-        const updatedSubjects = subjects.map(subject => ({
+        const auxSubjects = subjects.map(subject => ({
             ...subject,
-            marcado: false, // Desmarcar todos los subjects
+            isPrev: false,
+            isNext: false,
         }));
-    
-        // Filtrar todos los subjects que tengan 'next' igual a subjectsname
-        let prevs = subjects.filter(subject => subject.next[0] === subjectsname);
-    
-        // Recorrer todos los subjects previos y marcar según el índice
-        prevs.forEach(prevSubject => {
-            const subjectIndex = updatedSubjects.findIndex(subject => subject.name === prevSubject.name);
-            if (subjectIndex !== -1) {
-                // Marcar el subject con la propiedad 'marcado'
-                updatedSubjects[subjectIndex].marcado = true;
-            }
-        });
-    
-        // Actualizar el estado de subjects para reflejar el cambio
-        setSubjects(updatedSubjects);
-    };
 
+        prevs.forEach(prevSubject => {
+            const subjectIndex = auxSubjects.findIndex(subject => subject.name === prevSubject.name);
+            auxSubjects[subjectIndex].isPrev = true;
+        });
+
+        nexts.forEach(nextSubject => {
+            const subjectIndex = auxSubjects.findIndex(subject => subject.name === nextSubject.name);
+            auxSubjects[subjectIndex].isNext = true;
+        });
+
+        setSubjects(auxSubjects);
+
+        console.log(prevs);
+        console.log(nexts);
+    };
 
     return (
         <div className='mallacurricular'>
@@ -47,10 +49,11 @@ export default function Malla(){
                     {subjects
                         .filter(subject => subject.semester === numero)
                         .map(subject => (
-                            <li index={subject.name}>
+                            <li key={subject.name}>
                                 <button 
-                                onClick={() => MarcarAnterior(subject.name)}
-                                className={subject.marcado ? 'marcado' : ''}>
+                                onClick={() => checkPrevNext(subject.name)}
+                                className={`${subject.isPrev ? 'prev' : ''} ${subject.isNext ? 'next' : ''}`}
+                                >
                                 {subject.name}
                                 </button>
                             </li>
