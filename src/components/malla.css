@@ -7,7 +7,7 @@
     width: 180px;
     padding: 0px;
     list-style-type: none;
-    border-radius: 0%; 
+    border-radius: 5px; 
     border: 1px solid grey; 
 }
 
@@ -16,9 +16,11 @@
 }
 
 .titlesemester {
+    background-color: rgb(182, 171, 171);
     border-bottom: 1px solid grey;
     height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
   
 button {
