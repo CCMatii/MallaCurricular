@@ -1,0 +1,53 @@
+.mallacurricular{
+    display: flex;
+}
+
+.mallacurricular ul {
+    margin-left: 10px;
+    width: 180px;
+    padding: 0px;
+    list-style-type: none;
+    border-radius: 0%; 
+    border: 1px solid grey; 
+}
+
+.mallacurricular li{
+    height: 100px;
+}
+
+.titlesemester {
+    border-bottom: 1px solid grey;
+    height: 50px;
+    margin-bottom: 20px;
+}
+  
+button {
+    background-color: white;
+    color: black;
+    border: 0px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+button:hover {
+    background-color: rgb(84, 179, 185);
+    border: 0px;
+    color: white; 
+}
+
+button:focus{
+    background-color: rgb(84, 179, 185);
+    border: 0px;
+}
+
+.marcado{
+    background-color: orange;
+}
+
+
+h3{
+    color: black;
+}

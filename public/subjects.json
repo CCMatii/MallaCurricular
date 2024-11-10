@@ -1,0 +1,504 @@
+{
+  "subjects": [
+    {
+      "semester": 1,
+      "name": "Introducción a la Matemática",
+      "prev": [],
+      "next": ["Introducción al Cálculo"]
+    },
+    {
+      "semester": 1,
+      "name": "Química",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 1,
+      "name": "Taller de Introducción a la Ingeniería Informática",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 1,
+      "name": "Habilidades Comunicativas Para Ingenieros",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 1,
+      "name": "Programación",
+      "prev": [],
+      "next": ["Programación Orientada a Objetos", "Estructuras de Datos"]
+    },
+    {
+      "semester": 2,
+      "name": "Introducción al Cálculo",
+      "prev": ["Introducción a la Matemática"],
+      "next": ["Cálculo Diferencial e Integral", "Física Newtoniana"]
+    },
+    {
+      "semester": 2,
+      "name": "Álgebra",
+      "prev": [],
+      "next": ["Álgebra Superior", "Estructuras Discretas"]
+    },
+    {
+      "semester": 2,
+      "name": "Introducción a la Física",
+      "prev": [],
+      "next": ["Física Newtoniana"]
+    },
+    {
+      "semester": 2,
+      "name": "Electivo AFI I",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 2,
+      "name": "Ciudadanía",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 2,
+      "name": "Programación Orientada a Objetos",
+      "prev": ["Programación"],
+      "next": ["Taller de Programación Aplicada"]
+    },
+    {
+      "semester": 3,
+      "name": "Cálculo Diferencial e Integral",
+      "prev": ["Introducción al Cálculo"],
+      "next": ["Cálculo Multivariable", "Electromagnetismo"]
+    },
+    {
+      "semester": 3,
+      "name": "Álgebra Superior",
+      "prev": ["Álgebra"],
+      "next": ["Investigación Operativa"]
+    },
+    {
+      "semester": 3,
+      "name": "Física Newtoniana",
+      "prev": ["Introducción al Cálculo", "Introducción a la Física"],
+      "next": ["Electromagnetismo"]
+    },
+    {
+      "semester": 3,
+      "name": "Estructuras de Datos",
+      "prev": ["Programación"],
+      "next": []
+    },
+    {
+      "semester": 3,
+      "name": "Taller de Programación Aplicada",
+      "prev": ["Programación Orientada a Objetos"],
+      "next": []
+    },
+    {
+      "semester": 3,
+      "name": "Inglés I",
+      "prev": [],
+      "next": ["Inglés II"]
+    },
+    {
+      "semester": 4,
+      "name": "Cálculo Multivariable",
+      "prev": ["Cálculo Diferencial e Integral"],
+      "next": ["Ecuaciones Diferenciales", "Cálculo Numérico"]
+    },
+    {
+      "semester": 4,
+      "name": "Estructuras Discretas",
+      "prev": ["Álgebra"],
+      "next": []
+    },
+    {
+      "semester": 4,
+      "name": "Electromagnetismo",
+      "prev": ["Física Newtoniana", "Cálculo Diferencial e Integral"],
+      "next": ["Taller de Diseño Digital"]
+    },
+    {
+      "semester": 4,
+      "name": "Autómatas y Lenguajes Formales",
+      "prev": [],
+      "next": ["Inteligencia Artificial"]
+    },
+    {
+      "semester": 4,
+      "name": "Modelamiento y Paradigmas de la Programación",
+      "prev": [],
+      "next": ["Base de Datos", "Ingeniería de Software"]
+    },
+    {
+      "semester": 4,
+      "name": "Inglés II",
+      "prev": ["Inglés I"],
+      "next": ["Inglés III"]
+    },
+    {
+      "semester": 4,
+      "name": "Electivo AFI II",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 5,
+      "name": "Ecuaciones Diferenciales",
+      "prev": ["Cálculo Multivariable"],
+      "next": []
+    },
+    {
+      "semester": 5,
+      "name": "Física Moderna y Ondas",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 5,
+      "name": "Probabilidad y Estadística",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 5,
+      "name": "Análisis y Diseño de Algoritmos",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 5,
+      "name": "Bases de Datos",
+      "prev": ["Modelamiento y Paradigmas de la Programación"],
+      "next": ["Bases de Datos Avanzadas", "Práctica Intermedia"]
+    },
+    {
+      "semester": 5,
+      "name": "Inglés III",
+      "prev": ["Inglés II"],
+      "next": ["Inglés IV"]
+    },
+    {
+      "semester": 6,
+      "name": "Cálculo Numérico",
+      "prev": ["Cálculo Multivariable"],
+      "next": []
+    },
+    {
+      "semester": 6,
+      "name": "Taller de Diseño Digital",
+      "prev": ["Electromagnetismo"],
+      "next": []
+    },
+    {
+      "semester": 6,
+      "name": "Bases de Datos Avanzadas",
+      "prev": ["Bases de Datos"],
+      "next": []
+    },
+    {
+      "semester": 6,
+      "name": "Tecnologías Móviles y Web",
+      "prev": [],
+      "next": ["Taller de Ingeniería Informática"]
+    },
+    {
+      "semester": 6,
+      "name": "Ingeniería de Sistemas",
+      "prev": [],
+      "next": ["Sistemas de Información"]
+    },
+    {
+      "semester": 6,
+      "name": "Inglés IV",
+      "prev": ["Inglés III"],
+      "next": ["Inglés Para Informáticos I"]
+    },
+    {
+      "semester": 6,
+      "name": "Electivo AFI III",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 7,
+      "name": "Arquitectura de Computadores",
+      "prev": [],
+      "next": ["Sistemas Operativos"]
+    },
+    {
+      "semester": 7,
+      "name": "Economía",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 7,
+      "name": "Gestión de Empresas",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 7,
+      "name": "Sistemas de Información",
+      "prev": ["Ingeniería de Sistemas"],
+      "next": []
+    },
+    {
+      "semester": 7,
+      "name": "Taller de Ingeniería Informática",
+      "prev": ["Tecnologías Móviles y Web"],
+      "next": ["Seguridad Informática"]
+    },
+    {
+      "semester": 7,
+      "name": "Inglés Para Informáticos I",
+      "prev": ["Inglés IV"],
+      "next": ["Inglés Para Informáticos II"]
+    },
+    {
+      "semester": 7,
+      "name": "Práctica Intermedia",
+      "prev": ["Bases de Datos"],
+      "next": []
+    },
+    {
+      "semester": 8,
+      "name": "Investigación Operativa",
+      "prev": ["Álgebra Superior"],
+      "next": []
+    },
+    {
+      "semester": 8,
+      "name": "Sistemas Operativos",
+      "prev": ["Arquitectura de Computadores"],
+      "next": []
+    },
+    {
+      "semester": 8,
+      "name": "Ingeniería de Software",
+      "prev": ["Modelamiento y Paradigmas de la Programación"],
+      "next": ["Taller de Ingeniería de Software"]
+    },
+    {
+      "semester": 8,
+      "name": "Contabilidad y Costos",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 8,
+      "name": "Formulación y Evaluación de Proyectos",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 8,
+      "name": "Inglés Para Informáticos II",
+      "prev": ["Inglés Para Informáticos I"],
+      "next": []
+    },
+    {
+      "semester": 8,
+      "name": "Electivo AFI IV",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 9,
+      "name": "Redes y Comunicaciones",
+      "prev": [],
+      "next": ["Sistemas Distribuidos"]
+    },
+    {
+      "semester": 9,
+      "name": "Inteligencia Artificial",
+      "prev": ["Autómatas y Lenguajes Formales"],
+      "next": []
+    },
+    {
+      "semester": 9,
+      "name": "Taller de Ingeniería de Software",
+      "prev": ["Ingeniería de Software"],
+      "next": ["Taller de Integración Tecnológica"]
+    },
+    {
+      "semester": 9,
+      "name": "Innovación y Emprendimiento en Informática",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 9,
+      "name": "Electivo Profesional I",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 9,
+      "name": "Electivo Profesional II",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 10,
+      "name": "Sistemas Distribuidos",
+      "prev": ["Redes y Comunicaciones"],
+      "next": []
+    },
+    {
+      "semester": 10,
+      "name": "Seguridad Informática",
+      "prev": ["Taller de Ingeniería Informática"],
+      "next": []
+    },
+    {
+      "semester": 10,
+      "name": "Taller de Integración Tecnológica",
+      "prev": ["Taller de Ingeniería de Software"],
+      "next": []
+    },
+    {
+      "semester": 10,
+      "name": "Anteproyecto de Titulo",
+      "prev": [
+        "Introducción a la Matemática",
+        "Química",
+        "Taller de Introducción a la Ingeniería Informática",
+        "Habilidades Comunicativas Para Ingenieros",
+        "Programación",
+        "Introducción al Cálculo",
+        "Álgebra",
+        "Introducción a la Física",
+        "Electivo AFI I",
+        "Ciudadanía",
+        "Programación Orientada a Objetos",
+        "Cálculo Diferencial e Integral",
+        "Álgebra Superior",
+        "Física Newtoniana",
+        "Estructuras de Datos",
+        "Taller de Programación Aplicada",
+        "Inglés I",
+        "Cálculo Multivariable",
+        "Estructuras Discretas",
+        "Electromagnetismo",
+        "Autómatas y Lenguajes Formales",
+        "Modelamiento y Paradigmas de la Programación",
+        "Inglés II",
+        "Electivo AFI II",
+        "Ecuaciones Diferenciales",
+        "Física Moderna y Ondas",
+        "Probabilidad y Estadística",
+        "Análisis y Diseño de Algoritmos",
+        "Bases de Datos",
+        "Inglés III",
+        "Cálculo Numérico",
+        "Taller de Diseño Digital",
+        "Bases de Datos Avanzadas",
+        "Tecnologías Móviles y Web",
+        "Ingeniería de Sistemas",
+        "Inglés IV",
+        "Electivo AFI III",
+        "Arquitectura de Computadores",
+        "Economía",
+        "Gestión de Empresas",
+        "Sistemas de Información",
+        "Taller de Ingeniería Informática",
+        "Inglés Para Informáticos I",
+        "Práctica Intermedia",
+        "Investigación Operativa",
+        "Sistemas Operativos",
+        "Ingeniería de Software",
+        "Contabilidad y Costos",
+        "Formulación y Evaluación de Proyectos",
+        "Inglés Para Informáticos II",
+        "Electivo AFI IV",
+        "Redes y Comunicaciones",
+        "Inteligencia Artificial",
+        "Taller de Ingeniería de Software",
+        "Innovación y Emprendimiento en Informática",
+        "Electivo Profesional I",
+        "Electivo Profesional II"
+      ],
+      "next": ["Proyecto de Titulo"]
+    },
+    {
+      "semester": 10,
+      "name": "Electivo Profesional III",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 10,
+      "name": "Electivo Profesional IV",
+      "prev": [],
+      "next": []
+    },
+    {
+      "semester": 11,
+      "name": "Proyecto de Titulo",
+      "prev": ["Anteproyecto de Titulo"],
+      "next": []
+    },
+    {
+      "semester": 11,
+      "name": "Práctica Profesional",
+      "prev": [
+        "Introducción a la Matemática",
+        "Química",
+        "Taller de Introducción a la Ingeniería Informática",
+        "Habilidades Comunicativas Para Ingenieros",
+        "Programación",
+        "Introducción al Cálculo",
+        "Álgebra",
+        "Introducción a la Física",
+        "Electivo AFI I",
+        "Ciudadanía",
+        "Programación Orientada a Objetos",
+        "Cálculo Diferencial e Integral",
+        "Álgebra Superior",
+        "Física Newtoniana",
+        "Estructuras de Datos",
+        "Taller de Programación Aplicada",
+        "Inglés I",
+        "Cálculo Multivariable",
+        "Estructuras Discretas",
+        "Electromagnetismo",
+        "Autómatas y Lenguajes Formales",
+        "Modelamiento y Paradigmas de la Programación",
+        "Inglés II",
+        "Electivo AFI II",
+        "Ecuaciones Diferenciales",
+        "Física Moderna y Ondas",
+        "Probabilidad y Estadística",
+        "Análisis y Diseño de Algoritmos",
+        "Bases de Datos",
+        "Inglés III",
+        "Cálculo Numérico",
+        "Taller de Diseño Digital",
+        "Bases de Datos Avanzadas",
+        "Tecnologías Móviles y Web",
+        "Ingeniería de Sistemas",
+        "Inglés IV",
+        "Electivo AFI III",
+        "Arquitectura de Computadores",
+        "Economía",
+        "Gestión de Empresas",
+        "Sistemas de Información",
+        "Taller de Ingeniería Informática",
+        "Inglés Para Informáticos I",
+        "Práctica Intermedia",
+        "Investigación Operativa",
+        "Sistemas Operativos",
+        "Ingeniería de Software",
+        "Contabilidad y Costos",
+        "Formulación y Evaluación de Proyectos",
+        "Inglés Para Informáticos II",
+        "Electivo AFI IV"
+      ],
+      "next": []
+    }
+  ]
+}
