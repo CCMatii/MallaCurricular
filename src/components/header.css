@@ -1,5 +1,10 @@
 h1{
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #005AB6;
+    font-size: 50px;
+}
+body{
+    background-color: #005AB6;
 }

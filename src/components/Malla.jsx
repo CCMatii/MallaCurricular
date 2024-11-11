@@ -37,9 +37,30 @@ export default function Malla(){
 
         setSubjects(auxSubjects);
 
-        console.log(prevs);
-        console.log(nexts);
+        //console.log(prevs);
+        //console.log(nexts);
     };
+
+    const resetPrevNext = () => {
+        const resetSubjects = subjects.map(subject => ({
+            ...subject,
+            isPrev: false,
+            isNext: false,
+        }));
+        setSubjects(resetSubjects);
+    };
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (!event.target.closest('button')) {
+                resetPrevNext();
+            }
+        };
+        document.addEventListener('click', handleClickOutside);
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+        };
+    }, [subjects]);
 
     return (
         <div className='mallacurricular'>

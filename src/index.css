@@ -6,7 +6,7 @@
     margin: 0 auto;
     text-align: center;
     color: #213547;
-    background-color: #ffffff;
+    background-color: #005AB6;
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -26,6 +26,7 @@
   h1 {
     font-size: 36px;
     line-height: 1.1;
+    background-color: pink;
   }
    
   body{

@@ -1,5 +1,6 @@
 .mallacurricular{
     display: flex;
+    background-color: #005AB6;;
 }
 
 .mallacurricular ul {
@@ -7,20 +8,28 @@
     width: 180px;
     padding: 0px;
     list-style-type: none;
-    border-radius: 5px; 
-    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 8px; 
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
 }
 
 .mallacurricular li{
     height: 100px;
+    background-color: white;
+    border-radius: 8px;
+    border: transparent;
+    margin-top: 3px;
 }
 
-.titlesemester {
-    background-color: rgb(182, 171, 171);
+.mallacurricular .titlesemester {
+    background-color: rgba(213, 213, 223, 0.848);
+    margin-top: 0px;
     border-bottom: 1px solid grey;
-    height: auto;
-    margin-bottom: 10px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
   
 button {
@@ -35,22 +44,22 @@ button {
 }
 
 button:hover {
-    background-color: rgb(69, 146, 247);
+    background-color: #bde0fe;
     border: 0px;
-    color: white; 
+    color: black; 
 }
 
 button:focus{
-    background-color: rgb(69, 146, 247);
+    background-color: #7bbffb;
     border: 0px;
 }
 
 .prev{
-    background-color: rgb(255, 198, 55);
+    background-color: #faff6e;
 }
 
 .next{
-    background-color: rgb(31, 186, 31);
+    background-color: #86ff6e;
 }
 
 h3{
